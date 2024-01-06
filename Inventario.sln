@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventario", "Inventario\Inventario.csproj", "{D5D27968-3490-43C7-A616-C2B8896EE613}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventaryProject", "InventaryProject\InventaryProject.csproj", "{130F8F64-456F-4942-B1E6-42C0FEFE5A54}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5D27968-3490-43C7-A616-C2B8896EE613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5D27968-3490-43C7-A616-C2B8896EE613}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5D27968-3490-43C7-A616-C2B8896EE613}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5D27968-3490-43C7-A616-C2B8896EE613}.Release|Any CPU.Build.0 = Release|Any CPU
 		{130F8F64-456F-4942-B1E6-42C0FEFE5A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{130F8F64-456F-4942-B1E6-42C0FEFE5A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130F8F64-456F-4942-B1E6-42C0FEFE5A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
