@@ -1,4 +1,4 @@
-using InventaryProject.Data;
+using InventaryProject.DataAcces.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -37,7 +37,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Inventory}/{controller=Inventory}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

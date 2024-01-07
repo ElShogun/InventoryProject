@@ -1,6 +1,7 @@
 using InventaryProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using InventaryProject.Models.ViewModels;
 
 namespace InventaryProject.Controllers
 {
